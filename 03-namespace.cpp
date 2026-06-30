@@ -12,9 +12,19 @@ namespace second{
 
 
 int main() {
-    const int x = 2;
+    //using namespace second; // using namespace std..
+    using namespace std;
+    //using this line we can remove the std from variables like in the down bellow
+    // using std::cout;
+    // using std::string;
+    // it's a safer alternative to using namespace standard..
+    // const int x = 4;
 
-    std::cout << first::x;
+    string x = "Hey";
+
+    cout << first::x;
+    // std::cout << first::x;
+    // std::cout << x;
 
     return 0;
 }
