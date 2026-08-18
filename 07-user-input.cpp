@@ -7,7 +7,7 @@ int main(){
     std::string name;
     int age ;
     std::cout << "What's your name?: ";
-    std::cin >> name;
+    std::getline(std::cin, name);
 
     std::cout << "What's your Age?: ";
     std::cin >> age;
