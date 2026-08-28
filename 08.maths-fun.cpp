@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 int main(){
 
@@ -7,7 +8,9 @@ int main(){
     double z;
 
     //Maax funciton
-     z = std::max(x, y);
+    z = pow(2, 3);
+    //  z = std::max(x, y);
+    std::cout << z;
 
 
     return 0;
